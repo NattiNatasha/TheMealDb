@@ -1,0 +1,35 @@
+
+
+.recipe img {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table th, td {
+    text-align: center;
+    border-bottom: 1px solid silver;
+    padding: 10px 80px;
+}
+
+.video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-wrap iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
